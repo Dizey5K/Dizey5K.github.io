@@ -1,0 +1,8 @@
+.text {
+  display: flex;
+  padding-right: 6em;
+}
+
+.info-cont {
+  display: flex;
+}
