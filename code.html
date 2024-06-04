@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная</title>
+    <link rel="stylesheet" href="public/css/stylesheet.css" />
+    <link rel="stylesheet" href="public/css/nav.css" />
+    <link rel="stylesheet" href="public/css/main.css" />
+    <link rel="stylesheet" href="public/css/about.css" />
+    <link rel="stylesheet" href="public/css/code.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/prismjs/themes/prism-okaidia.css"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="nav-left">
+        <div class="nav-list">
+          <a href="/">Главная</a>
+          <a href="calendar.html">Календарь</a>
+          <a href="info.html">Инфо</a>
+          <a href="about.html" style="color: #a3d7da">О нас</a>
+        </div>
+      </div>
+      <div class="nav-right">
+        <div class="nav-search">
+          <input for="search" type="search" placeholder="Поиск" />
+          <a id="search" href=""
+            ><img src="public/img/uil-search.png" alt=""
+          /></a>
+        </div>
+        <div class="cart">
+          <a href="#">
+            <img src="public/img/cart.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="up-bar">
+        <div class="logo">
+          <img src="public/img/Frame 50.png" alt="" />
+        </div>
+        <div class="big">
+          <h1>Календарь физических событий</h1>
+        </div>
+      </div>
+      <div class="content">
+        <div class="info-cont">
+          <div class="text"><h1>Программный код сайта</h1></div>
+          <div class="text">
+            <pre>
+              <code class="language-html">
+                  &lt;!DOCTYPE html&gt;
+                  &lt;html lang="en"&gt;
+                    &lt;head&gt;
+                      &lt;meta charset="UTF-8" /&gt;
+                      &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+                      &lt;title&gt;Главная &lt;/title&gt;
+                      &lt;link rel="stylesheet" href="public/css/stylesheet.css" /&gt;
+                      &lt;link rel="stylesheet" href="public/css/nav.css" /&gt;
+                      &lt;link rel="stylesheet" href="public/css/main.css" /&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                      &lt;div class="navbar"&gt;
+                        &lt;div class="nav-left"&gt;
+                          &lt;div class="nav-list"&gt;
+                            &lt;a href="/" style="color: #a3d7da"&gt;Главная &lt;/a&gt;
+                            &lt;a href="calendar.html"&gt;Календарь &lt;/a&gt;
+                            &lt;a href="main.html"&gt;Инфо &lt;/a&gt;
+                            &lt;a href="about.html"&gt;О нас &lt;/a&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="nav-right"&gt;
+                          &lt;div class="nav-search"&gt;
+                            &lt;input for="search" type="search" placeholder="Поиск" /&gt;
+                            &lt;a id="search" href=""
+                            &gt; &lt;img src="public/img/uil-search.png" alt=""
+                          /&gt; &lt;/a&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                      &lt;div class="main" id="main"&gt;
+                        &lt;div class="up-bar"&gt;
+                          &lt;div class="logo"&gt;
+                            &lt;img src="public/img/Frame 50.png" alt="" /&gt;
+                          &lt;/div&gt;
+                          &lt;div class="big"&gt;
+                            &lt;h1&gt;Календарь физических событий &lt;/h1&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="content"&gt;
+                          &lt;div class="photo"&gt;
+                            &lt;img src="public/img/calendar.png" alt="" /&gt;
+                          &lt;/div&gt;
+                          &lt;div class="info-cont"&gt;
+                            &lt;div class="text"&gt;
+                            Сервис физичеких событий позволит вам, как найти интересующее для
+                            себя событие, так и узнать какие события происходили в тот или иной
+                            день в году. Люди всегда интересовались происходящим и тем что уже
+                            свершилось. Мой сервис позволяет вам исследовать вдоль и поперек
+                            прошлое, и даже немного заглянуть в будущее.
+                            &lt;/div&gt;
+                            &lt;div class="text"&gt;
+                              &lt;p&gt;
+                              Для комфортного использования вам нужно следовать всего 2 шагам:
+                              &lt;/p&gt;
+                              &lt;p&gt;1. Выбрать нужный вам месяц. &lt;/p&gt;
+                              &lt;p&gt;2. Выбрать нужный вам день и получить заветные знания! &lt;/p&gt;
+                              &lt;br /&gt;
+                              &lt;p&gt;Всего то! &lt;/p&gt;
+                            &lt;/div&gt;
+                            &lt;div class="auth" style="margin-bottom: 0"&gt;
+                            Работа выполнена Ч Лидией Анатольевной для проекта “Календарь
+                            физических событий”.
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/body&gt;
+                  &lt;/html&gt;
+              </code>
+              </pre>
+          </div>
+          <div class="text">
+            <pre>
+              <code class="language-css">
+                .main {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  flex-direction: column;
+                  padding: 1.44em 14.4em 1.44em 14.4em;
+                  margin-bottom: 0.66em;
+                }
+                
+                /* Text info */
+                
+                .content {
+                  display: flex;
+                  width: 100%;
+                  background-color: #707eff;
+                  border-radius: 20px;
+                }
+                
+                .up-bar {
+                  display: flex;
+                  width: 100%;
+                  justify-content: space-between;
+                  align-items: center;
+                  margin-bottom: 0.66em;
+                }
+                
+                .logo {
+                  display: flex;
+                  width: fit-content;
+                  padding: 0.75em;
+                  background-color: #8793ff;
+                  border-radius: 20px;
+                }
+                
+                .big {
+                  display: flex;
+                  height: fit-content;
+                  padding: 0.66em;
+                  background-color: #8793ff;
+                  border-radius: 10px;
+                  align-items: center;
+                  justify-content: center;
+                }
+                
+                .big h1 {
+                  color: white;
+                }
+                
+                .photo {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  background-color: #8793ff;
+                  padding: 1.875em;
+                  border-radius: 20px;
+                  margin: 1.25em 0.66em 1.25em 2.5em;
+                  width: 26%;
+                }
+                
+                .photo img {
+                  border-radius: 10px;
+                  width: 100%;
+                }
+                
+                .info-cont {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  margin: 0.66em 0 0.66em 0;
+                  padding-left: 1em;
+                  padding-right: 1em;
+                }
+                
+                .text {
+                  display: flex;
+                  width: 80%;
+                  flex-direction: column;
+                  border-radius: 20px;
+                  padding: 1.25em 2.5em 1.25em 2.5em;
+                  background-color: #8793ff;
+                  color: white;
+                  margin-bottom: 0.66em;
+                }
+                
+                .text p {
+                  color: white;
+                }
+                
+                .auth {
+                  display: flex;
+                  width: fit-content;
+                  flex-direction: column;
+                  border-radius: 10px;
+                  padding: 0.66em;
+                  background-color: #4551bd;
+                  color: white;
+                  margin-bottom: 0.66em;
+                }
+                
+                a {
+                  text-decoration: none;
+                }
+                @media (max-width: 2050px) {
+                  .content {
+                    flex-direction: column;
+                    align-items: center;
+                  }
+                
+                  .info-cont {
+                    align-items: center;
+                  }
+                }
+                
+                @media (max-width: 1200px) {
+                  .main {
+                    padding: 1.44em 6em 1.44em 6em;
+                  }
+                }
+                
+                @media (max-width: 600px) {
+                  body,
+                  p {
+                    font-size: 0.65rem;
+                  }
+                
+                  .main {
+                    padding: 1.44em 2em 1.44em 2em;
+                  }
+                }
+                
+              </code>
+              </pre>
+          </div>
+          <div class="text">
+            <pre>
+              <code class = 'language-css'>
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+*,
+a:focus {
+  margin: 0;
+  padding: 0;
+  outline: none !important;
+  color: #a3d7da;
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+}
+
+body {
+  background: #adb5ff;
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+  color: #a3d7da;
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 6em;
+    margin-right: 6em;
+  }
+
+  .up-bar {
+    flex-direction: column;
+  }
+  .up-bar .logo {
+    display: none;
+  }
+}
+              </code>
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
