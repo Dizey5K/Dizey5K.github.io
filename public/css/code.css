@@ -1,6 +1,7 @@
 .text {
   display: flex;
   padding-right: 6em;
+  color: white;
 }
 
 .info-cont {
